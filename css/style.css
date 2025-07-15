@@ -1,0 +1,21 @@
+.clima{
+    background: linear-gradient(to bottom right, 
+                rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), 
+                 url(../imagenes/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 767px) {
+    .w-25{
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .w-25{
+        width: 50% !important;
+    }
+}
